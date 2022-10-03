@@ -73,13 +73,6 @@ N/A
 - GitHub: [@githubhandle](https://github.com/doheera-kosi)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/evans-kupour-1879421a3/)
 
-👤 **Author2**
-## Nejjari Abdelhafid
-
-- GitHub: [@Nejjari001](https://github.com/Nejjari001)
-- Twitter: [@AbdoNJ19](https://https://twitter.com/AbdoNJ19)
-- LinkedIn: [Abdelhafid Nejjari](https://www.linkedin.com/in/abdelhafid-nejjari/)
-
 
 ## 🤝 Contributing
 

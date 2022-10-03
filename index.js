@@ -1,4 +1,4 @@
-import { pushItems } from './modules/pushItems.js';
+import { pushItems, elements } from './modules/pushItems.js';
 import { Collection } from './modules/collectionClass.js';
 import { } from './modules/time.js';
 // Declaring Global Variables
@@ -19,6 +19,12 @@ window.onload = () => {
   collection.getBooks();
 };
 
+elements.addEventListener('click', (e) => {
+  if (e.target.tagName === 'BUTTON') {
+    collection.removeBook(e.target.id);
+  }
+});
+
 const addBtn = document.querySelector('.addBtn');
 
 // event Listener to triger add Class
@@ -32,7 +38,7 @@ navList.addEventListener('click', () => {
   sectionList.style.display = 'block';
   sectionAdd.style.display = 'none';
   sectionContact.style.display = ' none';
-  pushItems();
+  pushItems(collection);
 });
 
 navAdd.addEventListener('click', () => {
