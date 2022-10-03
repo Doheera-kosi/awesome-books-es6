@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(190, 190, 185);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  margin-top: 30px;
+}
+
+header {
+  border: 2px solid black;
+  height: auto;
+}
+
+.logo {
+  width: 140px;
+  align-self: center;
+  margin-left: 15px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-button {
+  display: flex;
+}
+
+ul {
+  padding: 10px;
+}
+
+.nav-items {
+  list-style: none;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.list_item {
+  list-style: none;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  text-align: right;
+  margin-top: -20px;
+  margin-right: 3px;
+}
+
+button {
+  white-space: nowrap;
+  background-color: rgb(236, 232, 236);
+  border: 2px solid grey;
+  outline: none;
+  padding: 5px;
+  box-shadow: 3px 3px 5px 1px rgb(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.header {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 37px;
+}
+
+.book-name {
+  align-self: center;
+  font-weight: 700;
+}
+
+.book-author {
+  margin-bottom: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+input {
+  margin: 10px;
+  border: 2px solid black;
+  padding: 5px;
+  width: 250px;
+}
+
+input::placeholder {
+  font-weight: bold;
+  color: rgb(102, 98, 98);
+}
+
+.addBtn {
+  width: 90px;
+  margin: 10px;
+}
+
+#add-book {
+  display: block;
+}
+
+#list,
+#contact {
+  display: none;
+}
+
+footer {
+  padding: 10px 0;
+}
+
+.f-container {
+  width: 100%;
+  height: 40px;
+  bottom: 10px;
+  display: flex;
+  position: absolute;
+  margin: auto auto;
+  border: 3px solid black;
+  align-items: center;
+  justify-content: center;
+}
+
+small {
+  margin: auto;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+#contact {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+#contact p {
+  margin: 10px;
+}
+
+ol {
+  text-align: center;
+  list-style: none;
+  margin: 20px;
+}
+
+.cli {
+  margin-top: 5px;
+}

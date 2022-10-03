@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>Awesome Books</title>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <p class="logo">Awesome Books</p>
+      <ul class="nav-button">
+        <li class="nav-items"><button type="button" id="nav-list">List <i class="fas fa-list"></i></button></li>
+        <li class="nav-items"><button type="button" id="nav-add">New <i class="fas fa-save"></i></button></li>
+        <li class="nav-items"><button type="button" id="nav-contact">Contact <i class="fas fa-file"></i></button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <p id="time" class="time"></p>
+    <section id="list">
+      <h1 class="header">All Awesome Books</h1>
+      <ul class="elements" id="elements">
+        <!-- Books -->
+      </ul>
+    </section>
+
+    <section id="add-book">
+      <h1 class="header">Add Some new books</h1> <br>
+      <form action="" id="form">
+        <label id="msg"></label>
+        <input type="text" id="title" placeholder="Book Title">
+        <input type="text" id="author" placeholder="Book Title">
+        <button class="addBtn">Add New <i class="fas fa-plus-circle"></i> </button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h1 class="header">Contact Information</h1>
+      <p class="contact-1">Do you have any question or you just want to say 'Hello'?</p>
+      <p class="contact-2">You can reach out to us via the below links</p>
+      <ol>
+        <li class="cli"><strong>Our e-mail:</strong> <u>mail@mail.com</u></li>
+        <li class="cli"><strong>Phones:</strong> <u>0043588765463</u></li>
+        <li class="cli"><strong>Address:</strong> <u>Streetname 22, 84503 City, Country</u></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <div class="f-container">
+      Copyright@2022
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
