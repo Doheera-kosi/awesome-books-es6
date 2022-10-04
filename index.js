@@ -19,6 +19,7 @@ window.onload = () => {
   collection.getBooks();
 };
 
+// Delete Function
 elements.addEventListener('click', (e) => {
   if (e.target.tagName === 'BUTTON') {
     collection.removeBook(e.target.id);
